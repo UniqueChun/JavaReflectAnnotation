@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `rz_user`(
+`id` INT NOT NULL AUTO_INCREMENT,
+`name` VARCHAR(20) NOT NULL,
+`age` INT NOT NULL,
+`birth_day` DATE,
+PRIMARY KEY ( `id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+

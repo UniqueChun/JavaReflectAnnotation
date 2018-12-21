@@ -1,0 +1,3 @@
+sava(User user):最终是翻译成以下语句
+insert into rz_user(name,age,birth_day) values (?,?,?)
+
